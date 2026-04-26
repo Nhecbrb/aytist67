@@ -1,19 +1,33 @@
-body{
-
-    margin:0 ;
-}
-.menu{
+.header{
 display: flex;
-
-
-
+justify-content:space-between ;
+align-items: center;
+padding: 15px 150px ;
+}
+.headerbutton{
+display: flex;
+gap: 15px;
+align-items: center;
+}
+.consult{
+background-color: blue;
+border-radius: 5px;
+color: white;
+padding: 10px 5px;
+border: solid 1px white;
+}
+.baner{
+position: relative;
 
 }
-.cont img{
-
-width: 120px;
-
+.baner img{
+width: 100%;
 
 }
-
-
+.banertext{
+    top: 30%;
+    left: 10%;
+position: absolute;
+width: 40%;
+color: rgb(213, 192, 165);
+}
